@@ -21,8 +21,8 @@ Ensure you have the following installed on your machine:
 ## Setup Instructions
 1. Clone the repository:
    ```sh
-   git clone -b local https://github.com/hkhcoder/vprofile-project.git
-   cd vprofile-project
+   git clone https://github.com/surendergupta/vprofile_automation.git   
+   cd vprofile_automation
    ```
 2. Start the environment:
    ```sh
@@ -32,7 +32,10 @@ Ensure you have the following installed on your machine:
    ```sh
    vagrant status
    ```
-
+4. Use Project repository
+    ```sh
+    git clone https://github.com/surendergupta/vprofile-project.git
+    ```
 ## Vagrant Configuration
 The `Vagrantfile` defines all virtual machines and their configurations:
 
@@ -81,9 +84,12 @@ Each VM has an automation script located in the `scripts/` directory:
   ```
 
 ## Future Enhancements
+- Implement in **AWS** for cloud infrastructure.
 - Automate deployment with **Ansible**.
 - Add **Docker** support.
 - Implement **Kubernetes** for container orchestration.
+- Integrate **Terraform** for infrastructure as code.
+- Implement **CI/CD pipelines** for automated deployments.
 
 ## License
 This project is licensed under the **MIT License**.
